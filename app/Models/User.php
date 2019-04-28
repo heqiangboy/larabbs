@@ -28,4 +28,6 @@ class User extends Authenticatable implements MustVerifyEmailContract
     {
         return $this->id == $model->user_id;
     }
+
+
 }
